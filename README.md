@@ -16,6 +16,15 @@ Ex:
 
 	./itunes.rb "Afraid\ Of\ Everyone"
 
+Alternative way:
+
+	play <song-name>
+Ex:
+	play In The Death Car
+
+!! - for the alternative way, you need to make "play" executable and add it to your path!
+
+
 Future Updates:
 ---------------
 
