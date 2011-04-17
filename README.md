@@ -19,7 +19,8 @@ Ex:
 Alternative way:
 
 	play <song-name>
-Ex:
+Ex:	
+
 	play In The Death Car
 
 !! - for the alternative way, you need to make "play" executable and add it to your path!
