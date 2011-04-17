@@ -23,6 +23,12 @@ def controlApp(aps,songName)
 	puts "Going to play: #{@song.artist.get} - #{@song.name.get}"
 	@song.play
 end
-	
-controlApp(it,ARGV[0])
 
+if ARGV[0] == "-"
+	it.pause	
+elsif
+	ARGV.each do |value|	
+		@song = "#{@song}" + "#{value} "	
+	end	
+	controlApp(it,@song.chop)
+end
