@@ -26,10 +26,6 @@ end
 
 if ARGV[0] == "."
 	it.pause
-elsif ARGV[0] == "+"
-        puts "Raise volume"
-elsif ARGV[0] == "-"
-        puts "Reduce Volume"
 elsif
 	ARGV.each do |value|	
 		@song = "#{@song}" + "#{value} "	
