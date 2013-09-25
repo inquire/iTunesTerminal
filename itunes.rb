@@ -12,6 +12,7 @@
 require 'rubygems'
 require 'appscript'
 
+# This stuff needs updating.
 # Program which controls ITunes:
 
 it = Appscript.app('ITunes')
